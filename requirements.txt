@@ -1,0 +1,8 @@
+Django
+djangorestframework
+mediapipe
+numpy
+opencv_python
+ultralytics
+ffmpeg-python
+ffmpeg
