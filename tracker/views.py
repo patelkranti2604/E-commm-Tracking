@@ -49,6 +49,7 @@ def get_person_position(landmarks):
             return "up"
     return None
 
+
 class PushUpCountView(APIView):
     parser_classes = (MultiPartParser, FormParser)
 
@@ -183,3 +184,5 @@ class PushUpCountView(APIView):
             "pushup_count": pushup_count,
             "processed_video_url": video_record.get_processed_video_url()
         })
+    
+    
